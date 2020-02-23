@@ -8,6 +8,7 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../vendor/magento/mtf/etc/variations.xsd">
     <testCase name="Magento\SalesRule\Test\TestCase\ShoppingCartWithFreeShippingTest" summary="Shopping Cart With Freeshipping" ticketId="MAGETWO-59665">
         <variation name="ShoppingCartWithFreeShippingTestVariation1">
+            <data name="tag" xsi:type="string">mftf_migrated:yes</data>
             <data name="salesRule/dataset" xsi:type="string">rule_with_freeshipping_by_weight</data>
             <data name="product/dataset" xsi:type="string">default</data>
             <data name="cart/data/subtotal" xsi:type="string">560.00</data>
@@ -15,6 +16,7 @@
             <data name="cart/data/grand_total" xsi:type="string">560.00</data>
         </variation>
         <variation name="ShoppingCartWithFreeShippingTestVariation2">
+            <data name="tag" xsi:type="string">mftf_migrated:yes</data>
             <data name="salesRule/dataset" xsi:type="string">rule_with_freeshipping_by_weight</data>
             <data name="product/dataset" xsi:type="string">simple_with_weight_10</data>
             <data name="cart/data/subtotal" xsi:type="string">560.00</data>
